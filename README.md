@@ -1,5 +1,6 @@
 # xteaPIClib
-An example (and sort of a library) for encrypting/decrypting <a href="https://en.wikipedia.org/wiki/XTEA"> XTEA </a> on a PIC MCU.
+An example (and sort of a library) for encrypting/decrypting <a href="https://en.wikipedia.org/wiki/XTEA"> XTEA</a> (specifically XTEA‑CTR) on a PIC MCU.
+<p>It's an older encryption with some weaknesses but it is simple and efficient considering the limitations of an MCU and it is enough to deter casual eavesdropping. (This version does 64 rounds in ~13ms on an 8MHz PIC16F690 and has yet to be optimized further).</p>
 
 
 # License
